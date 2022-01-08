@@ -1,4 +1,6 @@
 #include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
 class Solution {
 public:
     void eulerian_path(int pos,vector<vector<int> > adj,vector<int> &outdeg,deque<int> &sol){
